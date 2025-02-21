@@ -1,0 +1,138 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button.secondary {
+  background-color: #fff;
+  color: #000;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.show-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.show-card {
+  text-align: center;
+}
+
+.show-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.categories {
+  text-align: center;
+}
+
+.categories ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.categories ul li {
+  margin-right: 10px;
+}
+
+.categories ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+footer p {
+  font-size: 14px;
+  color: #999;
+}
